@@ -6,7 +6,7 @@ class apiUnitTests {
  
     @Test
     void justAnExample() {
-    	Product testProd = new Product((long)9999, "testWidget", 19.95);
+    	Product testProd = new Product((long)9999, "testWidget", 19.96);
         assertEquals(testProd.getProductId(), 9999);
     }
 }
